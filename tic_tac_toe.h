@@ -10,7 +10,6 @@ namespace ttt
 	using namespace ttt_side;
 	class tic_tac_toe
 	{
-
 		std::array<std::optional<side>, 9> board_;
 		side current_turn_;
 		std::optional<side> winner_;
