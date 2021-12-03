@@ -15,19 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="main_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="tic_tac_toe.cpp">
+    <ClCompile Include="main_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TicTacToeGame\tic_tac_toe.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tic_tac_toe.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="TicTacToeGame\side.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="side.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="TicTacToeGame\tic_tac_toe.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
